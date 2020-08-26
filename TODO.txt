@@ -1,0 +1,11 @@
+Coisas a fazer:
+- merge sort
+- selection sort
+- radix sort
+
+- implementar barra para mudar velocidade
+- implementar redimensionamento automatico baseado na resolucao
+
+- arrumar o canvas e as barras para serem feitas em css
+
+- Dar control alt f em tudo pra indentar da forma correta

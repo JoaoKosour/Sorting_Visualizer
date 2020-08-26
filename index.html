@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Joaozinho Sorting</title>
+    <style>
+      body {
+        padding: 0;
+        margin: 0;
+      }
+    </style>
+    <script src="libraries/p5.js"></script>
+    <script src="sketch.js"></script>
+    <script src="sorting.js"></script>
+    <script src="SortingCalls.js"></script>
+    <script src="helper.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="button-container" id="button-container">
+        <button class="button" onclick="shuffleArray()">Shuffle</button>
+        <button class="button" onclick="isBubble()">BubbleSort</button>
+        <button class="button" onclick="isQuick()">QuickSort</button>
+        <button class="button" onclick="isShell()">ShellSort</button>
+        <button class="button" onclick="isSelection()">SelectionSort</button>
+        <button class="button" onclick="isHeap()">HeapSort</button>
+      </div>
+      <div class="canvas-container" id="canvas-container"></div>
+      <div class="lower-barrinha"></div>
+    </div>
+  </body>
+</html>
